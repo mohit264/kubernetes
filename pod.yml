@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod
+spec:
+  serviceAccountName: learnk8s-challenge
+  containers:
+  - image: learnk8s/fundamentals:pod
+    name: pod

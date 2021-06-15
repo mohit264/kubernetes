@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-inspect-pod
+spec:
+  serviceAccountName: learnk8s-challenge
+  containers:
+  - image: learnk8s/fundamentals:inspect
+    name: my-inspect-pod
